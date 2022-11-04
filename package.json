@@ -1,6 +1,6 @@
 {
   "name": "camunda-8-connector-openweather-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Node.js Camunda 8 Connector to retrieve data from the OpenWeather API.",
   "main": "dist/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "camunda-connector-sdk": "^1.0.4",
+    "camunda-connector-sdk": "^1.0.6",
     "got": "^11.8.5"
   }
 }

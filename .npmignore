@@ -1,0 +1,8 @@
+.github
+src
+docs
+.env
+*.env
+.vscode
+.husky
+tsconfig*.json

@@ -18,6 +18,10 @@ export class Connector implements OutboundConnectorFunction {
     async execute(context: OutboundConnectorContext) {
         const req = context.getVariablesAsType(DTO)
         context.replaceSecrets(req)
+        return this.makeCall(req)
+    }
+
+    async makeCall(req: DTO) {
         const baseUrl = `https://api.openweathermap.org/data/2.5/weather`
         const urlString = `${baseUrl}?appid=${req.apiKey}&lat=${req.latitude}&lon=${req.longitude}&units=${req.units}`
         try {

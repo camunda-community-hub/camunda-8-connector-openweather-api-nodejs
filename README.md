@@ -6,6 +6,10 @@
 
 A Node.js Camunda 8 Connector to retrieve data from the OpenWeather API.
 
+For instructions on how to run this connector, see the [Camunda 8 Connector SDK for Node.js](https://github.com/camunda-community-hub/connector-sdk-nodejs).
+
+For an explanation of the source code of this connector, see [this tutorial article](https://medium.com/@sitapati/how-to-build-a-camunda-8-connector-using-the-node-js-sdk-5eb3d798f9ff).
+
 ## API
 
 ### Input

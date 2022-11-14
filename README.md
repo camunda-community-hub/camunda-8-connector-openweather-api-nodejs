@@ -19,7 +19,8 @@ For an explanation of the source code of this connector, see [this tutorial arti
   "latitude": ".....",
   "longitude": ".....",
   "units": "....",
-  "apiKey":"...."
+  "apiKey": "....",
+  "resultVariable": "..."
 }
 ```
 
@@ -27,7 +28,7 @@ For an explanation of the source code of this connector, see [this tutorial arti
 
 ```json
 {
-  "weather": {
+  [resultVariable || "weather"]: {
     "forecast": "....",
     "code": "...."
   }
